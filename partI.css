@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pangolin', cursive;
+}
+.post{
+    border: 3px solid black;
+    padding: 1em 1.5em;
+    width: 50%;
+    max-width: 400px;
+    margin: 6em auto;
+}
+.post>p{
+    font-size: 115%;
+}
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5em;
+}
+.postHeader>h1{
+    font-weight: 400;
+    font-size: 150%;
+}
+.likes>p{
+    display: inline-block;
+}
+.likeBtn{
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;
+    padding: .25em .5em;
+    font-size: 110%;
+    background-color: #ffd965;
+    display: inline-block;
+    margin-left: 1.5em;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pangolin', cursive;
+}
+
+/*General Page Settings*/
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+.pageContainer{
+    display: flex;
+}
+.about{
+    flex: 1;
+}
+.posts{
+    flex: 3;
+    margin-left: 1.5em;
+}
+.pageTitle{
+    text-align: center;
+    margin-bottom: .5em;
+}
+.header{
+    background-color: black;
+    color: whitesmoke;
+    padding: .25em .5em;
+    margin-bottom: .5em;
+}
+
+/* About Settings*/
+.about{
+    padding: 1em;
+    border: 3px solid black;
+    height: 100%;
+}
+.about a{
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 125%;
+}
+.about h1{
+    text-align: center;
+    margin-top: .5em;
+}
+.about img{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+/*Post Settings*/
+.post{
+    border: 3px solid black;
+    padding: 1em 1.5em;
+    margin-bottom: .5em;
+}
+.post>p{
+    font-size: 115%;
+}
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5em;
+}
+.postHeader>h1{
+    font-weight: 400;
+    font-size: 150%;
+}
+.likes>p{
+    display: inline-block;
+}
+.likeBtn{
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px black;
+    padding: .25em .5em;
+    font-size: 110%;
+    background-color: #ffd965;
+    display: inline-block;
+    margin-left: 1.5em;
+    cursor: pointer;
+}
